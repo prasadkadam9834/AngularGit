@@ -1,0 +1,10 @@
+<p>login works!</p>
+<div class="container w-50 bg-success-subtle border black">
+    <form [formGroup]="login">
+        <label>Email-Id</label>
+        <input name="email" class="form-control" formControlName="Email" type="text">
+        <label>password</label>
+        <input name="pass" class="form-control" formControlName="Password" type="text">
+        <button class="btn btn-primary mt-3" [disabled]="login.invalid" (click)="Save()" routerLink="/home">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,21 @@
+<div class="container mt-5 w-50">
+<table class="table table-success table-striped cssclass">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Salery</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of empobj">
+        
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.salery}}</td>
+      </tr>
+     
+    </tbody>
+  </table>
+</div>
