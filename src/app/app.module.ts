@@ -35,10 +35,14 @@ import { ViewSupplierComponent } from './view-supplier/view-supplier.component';
     // ViewSupplierComponent
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+     
+    ReactiveFormsModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
