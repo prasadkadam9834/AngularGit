@@ -22,7 +22,7 @@ const routes: Routes = [{ path: 'supplires', loadChildren: () => import('./suppl
 
   { path: 'customer', loadChildren: () => import('./customer/customer.module').then(b => b.CustomerModule) },
   { path: 'product', loadChildren: () => import('./product/product.module').then(m => m.ProductModule) },
-  {path:'',redirectTo:'/customer',pathMatch:'full'}
+ {path:'',redirectTo:'/customer',pathMatch:'full'}
 ];
 
 @NgModule({
